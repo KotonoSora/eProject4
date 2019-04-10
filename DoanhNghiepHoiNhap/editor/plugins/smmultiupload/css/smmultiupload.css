@@ -1,0 +1,57 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body {
+margin: 0px;
+padding: 0px;
+font-family: arial, helvetica, serif;
+font-size: 10pt;
+color: #445566;
+background-color: #ffffff;
+overflow: hidden;
+}
+
+input {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10pt;
+border: 1px solid #7fa0bc;
+padding: 2px;
+}
+
+.select {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10pt;
+border: 1px solid #7fa0bc;
+padding: 1px;
+color: #445566;
+background: #ffffff url("../img/icon_folder_20x20.png") no-repeat;
+padding-left: 18px;
+}
+
+.edit {
+border-width: 0px;
+background-color: transparent;
+font-size: 10pt;
+}
+
+#main {
+height: 1000px;
+background-color: #ffffff;
+}
+
+#statusbar {
+background: #f7f7f7 url("../img/menu_bg.png") repeat-x;
+height: 24px;
+line-height: 24px;
+border-top: 1px solid #9fa0a4;
+}
+
+#upload_info {
+position: absolute;
+display: none;
+padding: 5px;
+background-color: #ffdf62;
+border: 1px solid #ffaa00;
+}

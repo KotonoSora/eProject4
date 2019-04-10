@@ -1,0 +1,76 @@
+﻿        #Truot1 .contentsLide
+        {
+            height: 165px;
+            width: 137px;
+            position: absolute;
+            top: 15px;
+            text-align :justify;
+        }
+        .header_chudenong{width:100%; float:left;}
+        #SlideShow1
+        {
+            height: 202px;
+            position: relative;
+            width:630px;
+            float:left;
+            background-color:#f2f2f2;
+        }
+        #Bao1
+        {
+            width: 626px;
+            overflow: hidden;
+            position: absolute;
+            top: 25px;
+            left: 0px;
+            border: 2px solid #C6C7C9;
+            height:175px;
+        }
+        #SlideShow1 .dieukhien
+        {
+            height: 27px;
+            width: 100px;
+            line-height:27px;
+            position:absolute;
+            top:1px;
+            left:255px; 
+            font-size:13px;
+        }
+        #SlideShow1 .dieukhien a
+        {
+            color:Red;
+            font-weight:bold;
+            margin:0px 5px;
+        }
+        #Truot1
+        {
+            height: 162px;
+            position: relative;
+            width: 240px;
+            top:0px;
+            left:15px;
+        }
+        #lui1
+        {
+            left: 0px;
+            top: 10px;
+            background-image: url(Images/imgLui.png);
+        }
+        #tien1
+        {
+            left: 964px;
+            top: 10px;
+            background-image: url(Images/imgTien.png);
+        }
+        #SlideShow1 .dieukhien .active
+        {
+            font-weight:bold;
+            background:#a0a0a2;
+            color:White;
+            border-radius:3px;
+            padding:2px 5px;
+            font-size:13px;
+        }
+        .left_dk{height:29px; width:9px; float:left; background-image:url('/Pic/module_xam_top_left.png')}
+        .right_dk{height:29px; width:9px; float:left; background-image:url('/Pic/module_xam_top_right.png')}
+        .main_dk{border-top:2px solid #C6C7C9; background-color:#F3F3F3;height:27px; line-height:27px; float:left; width: 612px;}
+        .title_chudenong{position:absolute; left:13px; top:7px; font-size:15px; color:#616264}

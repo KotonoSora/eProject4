@@ -1,0 +1,39 @@
+﻿.multimedia_homepage
+{
+    width:315px;
+    height:120px;
+    overflow:hidden;
+}
+.multimedia_homepage .NgheXem
+{
+    display:inline;
+    float:right;
+    width:155px;
+    height:120px;
+    overflow:hidden;
+    position:relative; 
+    padding-right:2px;
+}
+.multimedia_homepage .NgheXem .imgPlay
+{
+    height:24px;
+    width:24px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:2;
+}
+.multimedia_homepage .NgheXem .imgHinhAnh
+{
+    width:152px;
+    height:80px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:1;
+}
+.multimedia_homepage .NgheXem .link1
+{
+    position:absolute;
+    top:83px;
+}

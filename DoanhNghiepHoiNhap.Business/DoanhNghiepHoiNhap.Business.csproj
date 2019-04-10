@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB31C95B-4AC1-412F-8858-D4758C79C347}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DoanhNghiepHoiNhap.Business</RootNamespace>
+    <AssemblyName>DoanhNghiepHoiNhap.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonService.cs" />
+    <Compile Include="DoanhNghiepQueHuongService.cs" />
+    <Compile Include="DoanhNhanThanhDatService.cs" />
+    <Compile Include="HinhAnhQueHuongService.cs" />
+    <Compile Include="NhomHinhAnhService.cs" />
+    <Compile Include="ThongKeTruyCapService.cs" />
+    <Compile Include="TH_ChuongPDFService.cs" />
+    <Compile Include="TH_ChuongService.cs" />
+    <Compile Include="TH_ChuongTruyenTranhService.cs" />
+    <Compile Include="TH_HinhAnhTruyenTranhService.cs" />
+    <Compile Include="TH_LoaiChuongService.cs" />
+    <Compile Include="TH_QuyenSachService.cs" />
+    <Compile Include="TH_TheLoaiSachService.cs" />
+    <Compile Include="TM_HangHoaService.cs" />
+    <Compile Include="TM_HangHoa_HinhAnhService.cs" />
+    <Compile Include="TM_HoTroTrucTuyenService.cs" />
+    <Compile Include="TM_NhomHangHoaService.cs" />
+    <Compile Include="TM_ThanhVienService.cs" />
+    <Compile Include="TT_CauHinhChungService.cs" />
+    <Compile Include="TT_ChucNangService.cs" />
+    <Compile Include="TT_LienHeService.cs" />
+    <Compile Include="TT_MenuService.cs" />
+    <Compile Include="TT_MultimediaService.cs" />
+    <Compile Include="TT_Multimedia_GroupService.cs" />
+    <Compile Include="TT_NgonNguService.cs" />
+    <Compile Include="TT_NhomNguoiDungService.cs" />
+    <Compile Include="TT_NhomTinService.cs" />
+    <Compile Include="TT_PhanQuyenService.cs" />
+    <Compile Include="TT_QuangCaoService.cs" />
+    <Compile Include="TT_TinTucService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TT_ViTriService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DoanhNghiepHoiNhap.Data\DoanhNghiepHoiNhap.Data.csproj">
+      <Project>{62F95E1E-3077-4161-ABF7-E40485036973}</Project>
+      <Name>DoanhNghiepHoiNhap.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

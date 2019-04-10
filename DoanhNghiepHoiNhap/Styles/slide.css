@@ -1,0 +1,119 @@
+﻿       #SlideShow #Bao #BaoTruot .Truot .TruotContent a
+        {
+            height: 107px;
+            width: 160px;
+            border: #969696 solid 1px;
+            position: absolute;
+            top: 10px;
+            clear:both;
+        }
+        #SlideShow #Bao #BaoTruot .Truot .TruotContent img
+        {
+            height: 107px;
+            width: 160px;
+        }
+        #SlideShow
+        {
+            height: 170px;
+            position: relative;
+            width:100%;
+            float:left;
+        }
+        #SlideShow #Bao #BaoTruot
+        {
+            position:relative;
+            height: 125px;
+        }
+        #Bao
+        {
+            z-index:2;
+            width: 988px;
+            overflow: hidden;
+            position: absolute;
+            top: 25px;
+            left: 0px;
+            border:2px solid #EAEAEA;
+            background:#f2f2fa;
+        }
+        #SlideShow .dieukhien
+        {
+            height:127px;
+            width: 25px;
+            position: absolute;
+        }
+        #SlideShow #Bao #BaoTruot .Truot .TruotContent
+        {
+            position:relative;
+            height:150px;
+        }
+        #SlideShow .Truot
+        {
+            height: 162px;
+            position: absolute;
+            width: 940px;   
+            margin-left:25px;         
+        }
+        #lui
+        {
+            position:absolute;
+            left: 2px;
+            top: 25px;
+            background-image: url('/Pic/left-doanhnghieptieubieu.png');
+            z-index:4;
+            height:155px;
+        }
+        #tien
+        {
+            z-index:4;
+            position:absolute;
+            left: 967px;
+            top: 25px;
+            background-image: url('/Pic/right-doanhnghieptieubieu.png');
+            height:155px;
+        } 
+        #textdoanhnghiep1
+        {
+            position:absolute;
+            top:-10px;
+            left:0px;
+            background-image: url('/Pic/module_top_xanhcheo.png');
+            width:236px;
+            height:35px;
+            z-index:3;
+        }
+        
+        
+        
+        
+        
+        
+        
+        #SlideShow2 .Truot2 .TruotContent2 a
+        {
+            Width:295px;
+            Height:90px;
+            position: absolute;
+            clear:both;
+        }
+        #SlideShow2 .Truot2 .TruotContent2 img
+        {
+            Width:295px;
+            Height:90px;
+        }
+        #SlideShow2
+        {
+            height: 300px;
+            overflow:hidden;
+            position: relative;
+        }
+        #SlideShow2 .Truot2 .TruotContent2
+        {
+            position:relative;
+            height:150px;
+        }
+        #SlideShow2 .Truot2
+        {
+            height: 162px;
+            position: absolute;
+            margin-left:25px;         
+        }

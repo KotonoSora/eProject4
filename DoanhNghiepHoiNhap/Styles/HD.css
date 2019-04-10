@@ -1,0 +1,469 @@
+﻿#cap1
+{
+    width: 950px;
+    float: left;
+}
+
+#left_cap1
+{
+    width: 300px;
+    float: left;
+    border: 1px solid #BFBFBF;
+}
+
+#right_cap1
+{
+    width: 630px;
+    border: 1px solid #BFBFBF;
+    margin-left: 5px;
+    float: left;
+}
+
+/*#region dm phan loai */
+#phanloai 
+{
+    margin-top: 15px;
+	border-top: 1px solid rgb(204,204,204);
+	float: left;
+}
+.chuyenmuccap2
+{
+    background: transparent url(/Pic/bg_phanloai.gif) repeat-x top left;
+    width: 293px;
+    float: left;
+    border-bottom: 1px solid rgb(204,204,204);
+    padding: 3px 0 3px 7px;
+}
+
+.chuyenmuccap3
+{
+    margin-left: 7px;
+    width: 290px;
+    float: left;
+}
+
+.chuyenmuccap3 li
+{
+    margin-bottom: 3px;
+    padding:4px 6px 3px 20px;
+    background: transparent url(/Pic/side_navigation_bullet.gif) no-repeat 11px 9px;
+    list-style-type: none;
+}
+
+.link_child
+{
+    color: #1268B3;
+}
+
+/*#endregion*/
+
+#baivietmoinhat
+{
+    width: 490px;
+    float: left;
+    padding: 4px 3px 8px 7px;
+}
+
+.tieude_cap2
+{
+    background-color: #A7A9AC;
+    width: 100%;
+    height: 22px;
+}
+
+.tieude_left
+{
+    width: 290px;
+    float: left;
+    padding-left: 10px;
+}
+
+.tieude_right
+{
+    width: 80px;
+    float: right;
+    margin-right: 15px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.tieudechuyenmuc
+{
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 22px;
+    float: left;
+}
+
+.ttbv
+{
+    width: 435px;
+    padding-left: 2px;
+    float: right;
+}
+
+.baiviet
+{
+    width: 493px;
+    float: left;
+    padding: 10px 2px 3px 5px;
+}
+
+
+
+.text_header_kinhdoanh
+{
+    width: 195px;
+    float: left;
+    height: 10px;
+    color: #999355;
+    font-size: 19px;
+    line-height: 10px;
+    padding: 20px 0 20px 25px;
+}
+
+
+
+#cap3
+{
+    width: 925px;
+    float: left;
+}
+
+#right_cap3
+{
+    width: 240px;
+    margin-left: 25px;
+    float: left;
+    border-top: 2px solid #BFBFBF;
+}
+
+.header_baiviet
+{
+    width: 610px;
+    float: left;
+}
+
+.Tomtat_baiviet
+{
+    width: 525px;
+    margin-left: 5px;
+    float: left;
+}
+
+.content_baiviet
+{
+    width: 610px;
+    float: left;
+    margin-top: 5px;
+}
+
+#tnguyenlienquan
+{
+    width: 240px;
+    float: left;
+    margin-left: 350px;
+    background-color: #EDEDEE;
+    padding: 5px 0 5px 10px;
+}
+
+#tnguyenlienquan li
+{
+    padding-left: 5px;
+    font-size: 14px;
+    list-style-position: inside;
+}
+
+#header_lienquan
+{
+    margin-bottom: 5px;
+    color: #636466;
+}
+
+.nhomchuyenmuc
+{
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+.baivietc4
+{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #BFBFBF;
+    margin-bottom: 5px;
+    padding: 5px 0;
+}
+
+.noidungc4
+{
+    width: 100%;
+    float: left;
+    margin: 3px 0;
+}
+
+.sapoc4
+{
+    width: 600px;
+    padding-left: 2px;
+    float: right;
+}
+
+#right_cap4
+{
+    width: 250px;
+    float: left;
+    border: 1px solid #BFBFBF;
+    margin-left: 15px;
+}
+
+.weblq li
+{
+    padding-left: 5px;
+}
+
+#contentLeft
+{
+    width: 300px;
+    float: left;
+    border-top: 1px solid #E3E3E5;
+    border-left: 1px solid #E3E3E5;
+    border-right: 1px solid #E3E3E5;
+    margin-bottom: 10px;
+}
+
+#contentRight
+{
+    width: 635px;
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#HeadQuestion
+{
+    height: 24px;
+    float: left;
+    font-size:13px;
+}
+
+#HeadQuestion a
+{
+    line-height: 0;
+    margin-right: -3px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    background-color: #9E9E9E;
+    color: #FEFEFE;
+    padding: 5px 10px;
+}
+
+#HeadQuestion .active
+{
+    font-weight: 700;
+    background-color: #0082DD;
+}
+
+#SearchQuestion
+{
+    background: url(/Pic/search-background.gif) repeat-x;
+    float: left;
+    height: 42px;
+    width: 668px;
+    position: relative;
+    padding: 20px 0 0 10px;
+    font-size:13px;
+}
+
+.btnsearch
+{
+    position: absolute;
+    top: 18px;
+    left: 345px;
+}
+
+.txtSeach
+{
+    border-radius: 5px;
+    border: 1px solid #99938C;
+    height: 19px;
+}
+
+.AnswerQuestion
+{
+    color: #F7941E;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.People
+{
+    color: #0066cc;
+    font-size: 11px;
+    text-align: center;
+}
+
+.ngaythang
+{
+    font-size: 11px;
+    color: #666666;
+}
+
+.CauHoi
+{
+    background-color: White;
+    float: left;
+    width: 620px;
+    border-bottom: 1px dotted lightGrey;
+    padding: 20px 0 20px 10px;
+}
+
+.cauhoi_left
+{
+    width: 78px;
+    float: left;
+}
+
+.cauhoi_right
+{
+    width: 540px;
+    float: left;
+}
+
+.chitietcauhoi
+{
+    background-color: #FFFEDF;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    padding: 5px;
+}
+
+.tieudecauhoi
+{
+    color: #6666CC;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.noidungcauhoi
+{
+    font-size: 13px;
+}
+
+.dscauhoi
+{
+    min-height: 70px;
+    width: 553px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #D3D3D3;
+    float: left;
+    margin-left: 10px;
+    padding: 5px;
+    font-size:13px;
+}
+
+#AnswerQuestion, .BrowseQuestion
+{
+    border: 5px solid #EDEDED;
+    width: 668px;
+    float: left;
+}
+
+#Question
+{
+    border: 5px solid #D2E7AC;
+    width: 668px;
+    float: left;
+}
+
+.img_ChuyenGia
+{
+    border: 1px solid #EDEDED;
+    padding: 1px;
+}
+
+.imggo
+{
+    width: 10px;
+    height: 10px;
+    float: left;
+    z-index: 1000;
+    position: absolute;
+    top: 15px;
+    left: 1px;
+}
+
+.tungcauhoi
+{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+#ortherquestion
+{
+    margin: 5px 0 10px 10px;
+    font-size:13px;
+}
+
+#ortherquestion li
+{
+    list-style-position: inside;
+}
+
+.pager
+{
+    float: left;
+    margin: 5px;
+}
+
+.pager a
+{
+    background: url(/Pic/pager_a.png) repeat-x;
+    border: 1px solid #E3E3E5;
+    color: #555;
+    font-size: 11px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 5px 7px;
+}
+
+.pager span
+{
+    background-color: #E1E1E1;
+    border: 1px solid #E3E3E5;
+    color: #555;
+    font-size: 11px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 5px 7px;
+}
+
+
+.baiviet_cap2, .tieude_left1, .kinhdoanh, .tieudec4, .weblq
+{
+    width: 100%;
+    float: left;
+}
+
+.content_kinhdoanh li a, .duongdan
+{
+    font-size: 12px;
+}
+
+#left_cap3, #left_cap4
+{
+    width: 665px;
+    float: left;
+    border: 1px solid #BFBFBF;
+    padding: 10px 5px 10px 10px;
+}

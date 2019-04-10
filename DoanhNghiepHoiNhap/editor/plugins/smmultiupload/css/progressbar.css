@@ -1,0 +1,16 @@
+.progressbar {
+height: 14px;
+line-height: 14px;
+border: 1px solid #919191;
+font-family: arial, helvetica, serif;
+font-size: 8pt;
+color: #445566;
+background: #ffffff url("../img/progressbar_bg.png") repeat-x;
+}
+
+.progressbar .bar {
+height: 14px;
+width: 0%;
+background: #21E139 url("../img/progressbar_bar_bg.png") repeat-x;
+text-align: center;
+}

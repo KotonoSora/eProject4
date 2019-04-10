@@ -1,0 +1,193 @@
+﻿/*-----------------common---------------------*/
+a{text-decoration:none;color:#085DAA}
+a:hover{text-decoration:underline;color:#09F}
+img{border:none}
+.tin_moi_nhat a{
+display:none;
+}
+
+/*-----------------End common---------------------*/
+
+/*-----------------Khung web---------------------*/
+*{margin:0px;padding:0px;}
+body{font-family: arial; color:#434343}
+#wrapper{width:950px;margin:0px auto;}
+#header{width:100%;}
+#banner{position:relative;}
+#QuangCaoBanner{position:absolute;top:5px;right:5px;}
+#content{width:100%;clear:both;padding-top:5px;}
+#content_left{width:630px;float:left;}
+#content_right{width:315px;float:right;}
+#footer{width:955px;padding:10px 0px; float:left;background:url(/Pic/bg_footer.gif) repeat-x top;}
+#bottom{width:100%; float:left;}
+#bottom_menu{width:100%;}
+/*-----------------End Khung web---------------------*/
+
+/* -------------common -------*/
+.header-module{width:315px; float:left; height:27px;}
+.left-header-module{width:8px; float:left; height:27px; background-image:url('/Pic/TT/left-header-tindocnhieu.png')}
+.center-header-module{width:290px;float:left;line-height:31px; height:27px; background:url('/Pic/TT/center-header-tindocnhieu.png') repeat-x; color:#636466; font-size:15px; font-weight:bold; text-transform:uppercase; padding-left:7px;}
+.right-header-module{width:8px;float:left;height:27px;background:url('/Pic/TT/right-header-tindocnhieu.png')}
+.content-module{border:2px solid #bdbcc1;width:290px; float:left; padding:5px 3px 7px 16px;}
+.groupnew-name{color:#616264;font-size:15px;font-family:Tahoma;font-weight:bold;text-transform:uppercase;}
+div.groupnew-name{padding-bottom:5px;}
+div.groupnew-name a{padding-bottom:4px;}
+.title{color:#085DAA; text-decoration:none;}
+.title:hover{text-decoration:underline;}
+.trichdan{font-size:12px; font-family:Tahoma, Arial, sans-serif; color:#231F20; padding-bottom:10px;padding-top:5px;line-height:1.4em;text-align:justify}
+.header-module-tigia{width:285px; float:left; height:20px;line-height:20px; background:url('/Pic/thoitiet.png') repeat-x; border:2px solid #D5D8DE; padding-left:7px;}
+a.groupnew-name{font-size:15px;}
+/*----------------------Tin doc nhieu -----------*/
+#Tindocnhieu{width:315px; float:left; margin-top:5px;}
+#Tindocnhieu ul li{list-style-image:url('/Pic/TT/ar_blue_right.png'); list-style-position:inside; margin-bottom:5px; padding-left:2px;}
+#Tindocnhieu a{font-size:13px; color:#1D71B8; text-decoration:none;}
+#Tindocnhieu a:hover{color:Red;}
+/*----------------------Quang cao phai -----------*/
+#QuangCaoPhai{width:315px;float:left; height:180px;padding-bottom:5px;}
+/*----------------------main-----------*/
+#main{width:630px;float:left;}
+#left{width:456px; float:left;}
+#right{width:150px; float:left;}
+/*----------------------top1-----------*/
+#top1{width:456px;height:auto; float:left;}
+#newtop1{width:450px; float:left; padding:0 40px 15px 0;text-align:justify}
+#top a{font-size: 1.568em;}
+/*----------------------top 3 tin moi tiep theo -----------*/
+#top3{width:170px; float:left;text-align:justify}
+.NewTop3 {width:175px;float:left;}
+#top3 a{font-size:14px; font-weight:bold;}
+/*----------------------top 1 tin moi tiep theo -----------*/
+#top1tieptheo{width:450px; float:left; padding:5px 0px 7px 0px;}
+/*-------------------ti giá-------------*/
+#box-tigia{border-left:2px solid #C6C7C9;border-right:2px solid #C6C7C9;border-top:2px solid #C6C7C9;width:292px; float:left;}
+#tigia a{color:#616264; font-size:107.7%;font-weight:bold;text-transform:uppercase; text-decoration:none;}
+#tbltigia tr{height:22px;width:296px}
+td.trai{width:130px;padding-left:20px; font-weight:bold;border-bottom:#C6C7C9 2px solid; border-right:#C6C7C9 2px solid; font-size:14px;}
+td.phai{width:136px;padding-left:20px; font-weight:bold;border-bottom:#C6C7C9 2px solid; padding-left:15px;  font-size:14px;}
+
+#giavang{width:296px; float:left;}
+#box-giavang{border-left:2px solid #C6C7C9;border-right:2px solid #C6C7C9; border-top:2px solid #C6C7C9; width:292px; float:left;}
+#giavang a{color:#616264;  font-size:14px;font-weight:bold;text-transform:uppercase; text-decoration:none;}
+#tblgiavang tr{height:22px;width:296px; font-size:85%;}
+td.trai-vang{width:130px; padding-left:10px; border-bottom:#C6C7C9 2px solid; border-right:#C6C7C9 2px solid;}
+td.phai-vang{width:70px;padding-left:5px; border-bottom:#C6C7C9 2px solid;}
+td.giua-vang{width:70px;padding-left:5px; border-bottom:#C6C7C9 2px solid; border-right:#C6C7C9 2px solid;}
+/*----------------du bao thoi tiet---------------------*/
+#dubaothoitiet{width:292px; float:left; background:url('/Pic/thoitiet.png') repeat-x; height:22px; line-height:22px; position:relative;  border-bottom:2px solid #C6C7C9;}
+#city{width:234px; float:left; font-size:9px; line-height:26px; height:26px; position:absolute; top:0px; left:0px;}
+#weatherselect{width:60px; float:left; position:absolute; top:2px; left:230px;}
+.city1{position:absolute; top:0px; left:73px; width:200px;}
+select{font-size:11px;}
+/*--------------group news ----------------*/
+/* --------------hot groupnew -----------------------*/
+#group8{width:315px; float:left; margin-top:5px; padding:10px 0;}
+#group8 p.child2{margin-top:4px;}
+#group9{float:left; width:315px; padding:10px 0; margin-top:5px; border-bottom:2px dotted #C6C7C9;  border-top:2px dotted #C6C7C9}
+#group9 li{list-style-image:url('/Pic/ar_red_right.png'); list-style-position:inside; margin-bottom:4px;}
+#group10{float:left; width:315px; padding:10px 0;}
+.title-group10{width:200px; padding-left:5px; float:left;}
+.title-group10 li{list-style-image:url('/Pic/ar_red_right.png'); list-style-position:inside;}
+.title-group10 li a{font-weight:bold;}
+
+#group-new{width:630px; float:left; margin-top:15px;}
+#left-new{width:300px; float:left;}
+#right-new{width:310px; float:left;margin-left:5px}
+.img-groupnew-home{width:103px; padding:0px 5px 5px 0px; float:left;}
+.title-groupnew-home{width:187px;float:left; color:#1952A0; font-weight:bold;}
+.title-groupnew-5{float:left; color:#085DAA; font-weight:bold; text-transform:uppercase; font-size:15px;}
+.top-groupnew-home{width:100%; float:left; margin-top:7px;}
+.ul-groupnew-home{width:100%; float:left;}
+.ul-groupnew-home li{list-style-image:url('/Pic/ar_red_right.png'); list-style-position:inside;margin-top:4px;}
+.ul-groupnew-home li a{font-size:12px;color:#085DAA;}
+.ul-groupnew-home li a:hover{font-size:12px;color:#0f70b7;}
+
+#groupnew2{width:100%; float:left; padding:13px 0; border-top:3px solid #C6C7C9; border-bottom:2px dotted #C6C7C9;}
+#groupnew3{width:100%; float:left; padding:13px 0; border-bottom:3px solid #C6C7C9;}
+#groupnew4{width:100%; float:left; padding:13px 0;}
+#groupnew5{width:100%;float:left; padding:10px 0; border-bottom:3px solid #C6C7C9;  border-top:3px solid #C6C7C9}
+#groupnew6{width:100%;float:left;height:260px; margin-top:10px;}
+
+/*-----------------chuyen de----------------*/
+#chuyende{width:315px;float:left;padding-top:10px;}
+.group-new-chuyende{width:315px;float:left; margin-top:4px;}
+.title-chuyende{width:200px; padding-left:5px; float:left;}
+.box_gioithieu{font-size:13px;color:#004a89;padding:5px 0px;margin-top:10px;clear:both; float:left;}
+
+
+.tin_lien_quan{padding:10px 0px;}
+.tin_lien_quan h3{color:#505050;font-size:16px;border-top:1px solid #a8a6a7;border-bottom:1px solid #a8a6a7;padding:5px 0px;}
+.tin_lien_quan a{font-size:13px;font-weight:bold;color:#174f82;}
+
+.tin_moi_khac{padding:10px 0px;}
+.tin_moi_khac h3{color:#505050;font-size:16px;border-top:1px solid #a8a6a7;border-bottom:1px solid #a8a6a7;padding:5px 0px;}
+.tin_moi_khac a{font-size:13px;color:#174f82;background:url(/Pic/muiten.PNG) no-repeat left;padding-left:15px;}
+
+.tin_moi_nhat{padding:0px 0px 7px 0px;position:relative; height:19px}
+.tin_moi_nhat span{font-weight:bold;font-size:12px;}
+.tin_moi_nhat a{font-weight:bold;font-size:13px;color:#085daa;}
+
+.nhom_tin_lien_quan{width:100%;padding:5px 0px; float:left}
+.item_nhom_tin_lien_quan{width:300px;margin:15px 5px;padding-top:15px; border-top:3px solid #C6C7C9; float:left;}
+.item_nhom_tin_lien_quan img{float:left; }
+.item_nhom_tin_lien_quan a{font-size:12px;}
+a.title_nhom_tin{clear:both;font-size:15px;text-transform:uppercase;font-weight:bold;color:#616264;}
+.item_3tin{clear:both; float:left;}
+.item_3tin a{background:url(/Pic/submenu_icon.gif) no-repeat left;padding-left:10px;margin-top:5px;}
+a.cac_tin_cu_hon{background:url(/Pic/muiten.png) no-repeat right center;padding-right:10px;font-weight:bold;}
+.cactincuhon{padding:10px;}
+.cactincuhon a{font-weight:bold;}
+.cactincuhon img{float:left;margin-right:5px;}
+
+.watermark{color:#a8a6a7;font-size:12px;font-style:italic;}
+
+.binh_luan{font-size:12px;}
+.binh_luan td{padding:3px;}
+
+.content_popup{background:white;border:2px solid black;border-radius:10px;
+               -moz-border-radius:10px;-webkit-border-radius:10px;-khtml-border-radius:10px;
+               padding:10px;font-size:12px;}
+.close_panel{text-align:right;}
+.content_popup p {text-transform:uppercase;font-size:13px;font-weight:bold;}
+.content_popup ul{margin-left:20px;}
+
+
+#diendankinhdoanh{width:315px;float:left;margin-top:10px;}
+
+.header-module{width:315px; float:left; height:27px;}
+.left-kinhdoanh{width:8px; float:left; height:27px; background-image:url('/Pic/left-kinhdoanh.png')}
+.center-kinhdoanh{background-color:#F3F3F3;width:272px;float:left;line-height:27px; height:27px; border-top:2px solid #C6C7C9; color:#636466; font-size:15px; font-weight:bold; text-transform:uppercase; padding-left:7px;}
+.right-kinhdoanh{width:9px;float:left;height:27px;background:url('/Pic/right-kinhdoanh.png')}
+.content-kinhdoanh{border:2px solid #bdbcc1;width:292px; float:left; border-top:2px solid #C6C7C9;}
+.tblkinhdoanh tr{height:25px;width:315px}
+.tblkinhdoanh td.kdtrai{width:130px;padding-left:5px;font-weight:bold;border-bottom:#C6C7C9 2px solid; border-right:#C6C7C9 2px solid; font-size:10px;}
+.tblkinhdoanh td.kdphai{width:151px;padding-left:5px;font-weight:bold;border-bottom:#C6C7C9 2px solid; padding-left:15px;  font-size:10px;}
+.tblkinhdoanh tr.lastrow{height:21px;width:315px}
+
+/******************chuyen muc con****************************/
+.chuyenmucnew {width:470px; float:left;}
+.imgchuyenmuc{width:240px; height:180px;float:left; padding:5px;}
+.title_tomtat_chuyenmuc{width:215px; float:left; margin-left:5px; color:#434343;}
+.title_chuyenmuc{font-size:16px; line-height:20px; float:left;}
+.tomtat_chuyenmuc{font-size:12px; line-height:16px;text-align:justify;}
+.smallgroupnew{width:300px; float:left; padding:5px; border-top:3px solid #C6C7C9;padding-bottom:10px;margin-top:20px;}
+#nhomtincon1_datalist{margin-top:10px;}
+ /*-------------Gridview Page Style-------------------*/
+.pagination {font-size: 80%;}
+.pagination a {text-decoration: none;border: solid 1px #33758B;color: #15B;}
+.pagination a, .pagination span {display: block;float: left;padding: 0.3em 0.5em;margin-right: 5px;margin-bottom: 5px;}
+.pagination a:hover{color:white;background:#0C578D;}
+
+/******************multimedia****************************/
+.multimedia_list{background:#e1eef5;padding:20px;margin-top:10px;width:910px;}
+.multimedia_list a{font-size:13px;font-weight:bold;color:#174f82;}
+a.multimedia_title{font-size:24px;color:#174f82;font-weight:bold;}
+.multimedia_list td{height:160px;}
+.item_multimedia_list{width:450px;margin:5px 0px;}
+.item_multimedia_list img{float:left;margin-right:5px;}
+.item_multimedia_list span{font-size:12px;}
+.multimedia_homepage{margin-top:5px;}
+.multimedia_homepage a{font-size:13px;font-family:Tahoma;}
+.multimedia_homepage h3{color:#616264;font-size:17px;text-transform:uppercase;}
+.video_xem_nhieu{width:295px;float:right;background:#e1eef5;padding:5px 0px 0px 5px;margin-top:10px;}
+.video_xem_nhieu a{background:url(/Pic/media.png) no-repeat left;padding-left:23px;line-height:23px;}
+.video_xem_nhieu h3{padding-bottom:3px;}

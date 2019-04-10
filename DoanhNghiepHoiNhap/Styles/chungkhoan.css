@@ -1,0 +1,121 @@
+.chungkhoan{
+color:white;
+font-size:12px;
+font-weight:bold;
+ font-family: arial, helvetica;
+}
+.chungkhoan td
+{
+border:solid 1px silver;
+}
+#tabbed_nav {
+    margin: 0px auto;
+    width: 298px;
+}
+
+.tabbed_nav h4 {
+    font-family: arial, helvetica;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.tabbed_area {
+    
+    background: #ffffff;
+    padding: 0px;
+}
+
+ul.tabs {
+    overflow: hidden;
+    margin: 5px 0px -1px 0px; 
+    padding: 0px;
+}
+
+ul.tabs li {
+    list-style: none;
+    display: inline;
+}
+
+ul.tabs li a {
+    display: block; width: 99px; height: 32px;
+    float: left;
+    padding-right: 2px;
+    color: white; line-height: 35px; text-align: center;
+    font-size: 12px; font-weight: bold;
+    text-decoration: none; text-transform: uppercase;
+    background: transparent url(images/button.png) no-repeat top left scroll;
+
+}
+
+ul.tabs li a:hover {
+    background: transparent url(images/button.png) no-repeat bottom left scroll;
+}
+
+ul.tabs li a.active {
+    color: white;
+    background: transparent url(images/button.png) no-repeat bottom left scroll ;
+}
+
+.chungkhoan .content {
+    padding: 1px;
+    position: relative; z-index:  10000;
+    background: #2fa0e1 url(images/content_bg.jpg) repeat-x bottom left scroll;
+}
+
+#news, #popular {
+    display: none;
+}
+
+.chungkhoan .content ul {
+	list-style: none;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+
+.chungkhoan .content ul li {
+   
+    padding: 1px 0px;
+    font-size: 13px;
+}
+
+.chungkhoan .content ul li a {
+    text-decoration: none;
+    color: #b3e3ff;
+}
+
+.chungkhoan .content ul li a:hover {
+    color: white;
+}
+
+.chungkhoan .content ul li:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

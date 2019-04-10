@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="DoanhNghiepHoiNhap" Label="DoanhNghiepHoiNhap" Category="Project" />
+    <Node Id="Microsoft.AspNet.WebApi 5.0.0" Label="Microsoft.AspNet.WebApi 5.0.0" Category="Package" />
+    <Node Id="Microsoft.AspNet.WebApi.Core 5.0.0" Label="Microsoft.AspNet.WebApi.Core 5.0.0" Category="Package" />
+    <Node Id="Newtonsoft.Json 5.0.6" Label="Newtonsoft.Json 5.0.6" Category="Package" />
+    <Node Id="VersFx.Formats.Text.Epub 1.0.2" Label="VersFx.Formats.Text.Epub 1.0.2" Category="Package" />
+  </Nodes>
+  <Links>
+    <Link Source="DoanhNghiepHoiNhap" Target="Microsoft.AspNet.WebApi 5.0.0" Category="Installed Package" />
+    <Link Source="DoanhNghiepHoiNhap" Target="Microsoft.AspNet.WebApi.Core 5.0.0" Category="Installed Package" />
+    <Link Source="DoanhNghiepHoiNhap" Target="Newtonsoft.Json 5.0.6" Category="Installed Package" />
+    <Link Source="DoanhNghiepHoiNhap" Target="VersFx.Formats.Text.Epub 1.0.2" Category="Installed Package" />
+  </Links>
+  <Categories>
+    <Category Id="Project" />
+    <Category Id="Package" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Project" ValueLabel="True">
+      <Condition Expression="HasCategory('Project')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+  </Styles>
+</DirectedGraph>

@@ -1,0 +1,45 @@
+//. Configuration .............................................................
+[fckconfig.js]
+
+FCKConfig.ToolbarSets[] add menu button ['SMMultiUpload']
+
+FCKConfig.Plugins.Add('smmultiupload', 'en,de');
+FCKConfig.smmultiupload_directory = '/download/';
+FCKConfig.smmultiupload_hidden_folder = '';
+FCKConfig.smmultiupload_hidden_subfolder = '';
+FCKConfig.smmultiupload_upload_filetype = '';
+FCKConfig.smmultiupload_upload_filesize = '';
+FCKConfig.smmultiupload_check_session_variable = '';
+FCKConfig.smmultiupload_width = 850;
+FCKConfig.smmultiupload_height = 600;
+
+//. Parameter .................................................................
+[FCKConfig.smmultiupload_directory]
+	Upload Verzeichnispfad
+
+[FCKConfig.smmultiupload_hidden_folder]
+	Verzeichnis ausblenden, Auflistung Komma getrennt
+	z.B.: "Verzeichnis1,Verzeichnis2"
+
+[FCKConfig.smmultiupload_hidden_subfolder]
+	Unterverzeichnis ausblenden, Auflistung Komma getrennt
+	z.B.: "Unterverzeichnis1,Unterverzeichnis2"
+
+[FCKConfig.smmultiupload_upload_filetype]
+	Upload Dateityp, Auflistung Komma getrennt
+	z.B.: "jpg,gif"
+
+[FCKConfig.smmultiupload_upload_filesize]
+	Upload Dateigröße (KB)
+	z.B.: "100" -> 100KB
+
+[FCKConfig.smmultiupload_check_session_variable]
+	Überprüfung einer Session-Variable eines Content-Management-Systems (CMS)
+	z.B.: ADDT -> "kt_login_id"
+	      Dreamweaver -> "MM_user_id"
+
+[FCKConfig.smmultiupload_width]
+	Fensterbreite (Pixel)
+
+[FCKConfig.smmultiupload_height]
+	Fensterhöhe (Pixel)

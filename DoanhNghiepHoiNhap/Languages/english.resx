@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accessstatistics" xml:space="preserve">
+    <value>Access Statistics</value>
+  </data>
+  <data name="active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Add New</value>
+    <comment>Nút thêm mới</comment>
+  </data>
+  <data name="addenglish" xml:space="preserve">
+    <value>Adding product to the Vietnamese </value>
+  </data>
+  <data name="addgroup" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="addimage" xml:space="preserve">
+    <value>Add Image</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="advertise" xml:space="preserve">
+    <value>Image Manager</value>
+  </data>
+  <data name="albumlist" xml:space="preserve">
+    <value>Album List</value>
+  </data>
+  <data name="allcontact" xml:space="preserve">
+    <value>All contact</value>
+  </data>
+  <data name="allcustomers" xml:space="preserve">
+    <value>All Customers</value>
+  </data>
+  <data name="answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="appraise" xml:space="preserve">
+    <value>Appraise</value>
+  </data>
+  <data name="avatar" xml:space="preserve">
+    <value>Avatar</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="calldescription" xml:space="preserve">
+    <value>Call description</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="cancelpublic" xml:space="preserve">
+    <value>Unpublished success!</value>
+  </data>
+  <data name="captcha" xml:space="preserve">
+    <value>Captcha</value>
+  </data>
+  <data name="changepassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="childof" xml:space="preserve">
+    <value>Child Of</value>
+  </data>
+  <data name="choosecus" xml:space="preserve">
+    <value>Choose Customers</value>
+  </data>
+  <data name="chooseimage" xml:space="preserve">
+    <value>Choose Image</value>
+    <comment>Label lựa chọn Dropdownlist</comment>
+  </data>
+  <data name="comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="companyhistory" xml:space="preserve">
+    <value>Company History</value>
+  </data>
+  <data name="complain" xml:space="preserve">
+    <value>Complain</value>
+  </data>
+  <data name="component" xml:space="preserve">
+    <value>Component</value>
+  </data>
+  <data name="confirmdelete" xml:space="preserve">
+    <value>Are you want to delete?</value>
+  </data>
+  <data name="confirmpassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="contactinfo" xml:space="preserve">
+    <value>Contact Infomation</value>
+  </data>
+  <data name="contactpurchase" xml:space="preserve">
+    <value>Contact us purchase</value>
+  </data>
+  <data name="content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="contentmanagement" xml:space="preserve">
+    <value>Content Management</value>
+  </data>
+  <data name="createdby" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="createddate" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="customer" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="customerlist" xml:space="preserve">
+    <value>Customer List</value>
+  </data>
+  <data name="customermanagement" xml:space="preserve">
+    <value>Customer Management</value>
+  </data>
+  <data name="customername" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="datefrom" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="dateto" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="deactive" xml:space="preserve">
+    <value>Deactive</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>Nút xóa</comment>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="descriptionvisit" xml:space="preserve">
+    <value>Description Visit</value>
+  </data>
+  <data name="detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="doanhnghieptieubieu" xml:space="preserve">
+    <value>Typical enterprise</value>
+  </data>
+  <data name="document" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="documentmanage" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Edit</value>
+    <comment>Nút sửa</comment>
+  </data>
+  <data name="enddate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="errorselectgroupnew" xml:space="preserve">
+    <value>Please select group new</value>
+  </data>
+  <data name="establish" xml:space="preserve">
+    <value>Establish</value>
+  </data>
+  <data name="fail" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="faqs" xml:space="preserve">
+    <value>FAQs</value>
+  </data>
+  <data name="feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="fullname" xml:space="preserve">
+    <value>Fullname</value>
+  </data>
+  <data name="function" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="functionname" xml:space="preserve">
+    <value>Function Name</value>
+  </data>
+  <data name="gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="generalconfig" xml:space="preserve">
+    <value>General Configuration</value>
+  </data>
+  <data name="gmaildescription" xml:space="preserve">
+    <value>Gmail description</value>
+  </data>
+  <data name="gototop" xml:space="preserve">
+    <value>Go to top</value>
+  </data>
+  <data name="groupdocument" xml:space="preserve">
+    <value>Group documents</value>
+  </data>
+  <data name="groupimage" xml:space="preserve">
+    <value>Group Image</value>
+  </data>
+  <data name="groupproduct" xml:space="preserve">
+    <value>Group Product</value>
+  </data>
+  <data name="groupuser" xml:space="preserve">
+    <value>Group User</value>
+  </data>
+  <data name="hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="historycompany" xml:space="preserve">
+    <value>Company History</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="imagemanage" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="imagepro" xml:space="preserve">
+    <value>Images Product</value>
+  </data>
+  <data name="infomember" xml:space="preserve">
+    <value>Change Information</value>
+  </data>
+  <data name="inputcaptcha" xml:space="preserve">
+    <value>Input captcha</value>
+  </data>
+  <data name="introduction" xml:space="preserve">
+    <value>Introduction</value>
+  </data>
+  <data name="invalidcaptcha" xml:space="preserve">
+    <value>Invalid captcha</value>
+  </data>
+  <data name="isinteger" xml:space="preserve">
+    <value>Ordering is integer</value>
+  </data>
+  <data name="keyword" xml:space="preserve">
+    <value>Keyword</value>
+    <comment>Label Từ khóa tìm kiếm</comment>
+  </data>
+  <data name="level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="level1" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="listemail" xml:space="preserve">
+    <value>List Email</value>
+  </data>
+  <data name="listmember" xml:space="preserve">
+    <value>List members</value>
+  </data>
+  <data name="loaibaobi" xml:space="preserve">
+    <value>Type of packaging</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="loginby" xml:space="preserve">
+    <value>Login by</value>
+  </data>
+  <data name="logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="managecontact" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="managegroupvideo" xml:space="preserve">
+    <value>Group Video Management</value>
+  </data>
+  <data name="managementnews" xml:space="preserve">
+    <value>News Management</value>
+  </data>
+  <data name="managementwebsite" xml:space="preserve">
+    <value>Website Management</value>
+  </data>
+  <data name="manageproduct" xml:space="preserve">
+    <value>Product Manage</value>
+  </data>
+  <data name="manageuser" xml:space="preserve">
+    <value>Manage User</value>
+  </data>
+  <data name="manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="map" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="Maps" xml:space="preserve">
+    <value>Maps</value>
+  </data>
+  <data name="membername" xml:space="preserve">
+    <value>Member name</value>
+  </data>
+  <data name="members" xml:space="preserve">
+    <value>V-Stars members</value>
+  </data>
+  <data name="menuduoi" xml:space="preserve">
+    <value>Menu Bottom</value>
+  </data>
+  <data name="menuloai1" xml:space="preserve">
+    <value>Input Link</value>
+  </data>
+  <data name="menuloai2" xml:space="preserve">
+    <value>Link to Group New</value>
+  </data>
+  <data name="menuloai3" xml:space="preserve">
+    <value>Input Content</value>
+  </data>
+  <data name="menuloai4" xml:space="preserve">
+    <value>Link to page</value>
+  </data>
+  <data name="menumanager" xml:space="preserve">
+    <value>Menus</value>
+  </data>
+  <data name="menutren" xml:space="preserve">
+    <value>Menu Top</value>
+  </data>
+  <data name="menutrenduoi" xml:space="preserve">
+    <value>Menu Top &amp; Menu Bottom</value>
+  </data>
+  <data name="message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="newgroup" xml:space="preserve">
+    <value>Group News</value>
+  </data>
+  <data name="newpasswordfalse" xml:space="preserve">
+    <value>New Password Invalid!</value>
+  </data>
+  <data name="newpriority" xml:space="preserve">
+    <value>News Priority</value>
+  </data>
+  <data name="newreturn" xml:space="preserve">
+    <value>Post are returned</value>
+  </data>
+  <data name="newreview" xml:space="preserve">
+    <value>There is post need to review</value>
+  </data>
+  <data name="news" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="ngaybanhanh" xml:space="preserve">
+    <value>Published Date</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="nopermitdelete" xml:space="preserve">
+    <value>This post is public, You can't delete</value>
+  </data>
+  <data name="nopermitedit" xml:space="preserve">
+    <value>This post is public, You can't edit</value>
+  </data>
+  <data name="notbeempty" xml:space="preserve">
+    <value>Menu name can not be empty</value>
+  </data>
+  <data name="notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="notnewreview" xml:space="preserve">
+    <value>There is no post need to review</value>
+  </data>
+  <data name="notselectdate" xml:space="preserve">
+    <value>Please select date</value>
+  </data>
+  <data name="numview" xml:space="preserve">
+    <value>Number View</value>
+  </data>
+  <data name="off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="oldpasswordfalse" xml:space="preserve">
+    <value>Old password invalid!</value>
+  </data>
+  <data name="on" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="onlinecount" xml:space="preserve">
+    <value>Number of people online</value>
+  </data>
+  <data name="order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="origin" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="ortherpost" xml:space="preserve">
+    <value>Orther Post</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="passwordold" xml:space="preserve">
+    <value>Old Password</value>
+  </data>
+  <data name="permission" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="permitionfunction" xml:space="preserve">
+    <value>Decentralized functions</value>
+  </data>
+  <data name="permitiongroupnew" xml:space="preserve">
+    <value>Decentralization newsgroups</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="photovideo" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="posting" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="postviewest" xml:space="preserve">
+    <value>Most Viewed Posts</value>
+  </data>
+  <data name="product" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="productid" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="productname" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="promotional" xml:space="preserve">
+    <value>Promotional</value>
+  </data>
+  <data name="quantitative" xml:space="preserve">
+    <value>Quantitative</value>
+  </data>
+  <data name="question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="requirecontent" xml:space="preserve">
+    <value>You must input value in content</value>
+  </data>
+  <data name="requireimage" xml:space="preserve">
+    <value>You must upload image</value>
+  </data>
+  <data name="requireselectgroup" xml:space="preserve">
+    <value>You must select value in Group New</value>
+  </data>
+  <data name="requiresummary" xml:space="preserve">
+    <value>You must input value in summary</value>
+  </data>
+  <data name="requiretitle" xml:space="preserve">
+    <value>You must input value in title</value>
+  </data>
+  <data name="reviewby" xml:space="preserve">
+    <value>Review By</value>
+  </data>
+  <data name="reviewed" xml:space="preserve">
+    <value>Reviewed</value>
+  </data>
+  <data name="root" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="rootmenu" xml:space="preserve">
+    <value>Root Menu</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Save</value>
+    <comment>Nút cập nhật</comment>
+  </data>
+  <data name="scope" xml:space="preserve">
+    <value>Scope</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Search</value>
+    <comment>Nút Tìm kiếm</comment>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>Select Item</value>
+  </data>
+  <data name="selectdate" xml:space="preserve">
+    <value>Select Date</value>
+  </data>
+  <data name="selectdocument" xml:space="preserve">
+    <value>Select Document</value>
+  </data>
+  <data name="selectgroup" xml:space="preserve">
+    <value>Select Group</value>
+  </data>
+  <data name="selectgroupimage" xml:space="preserve">
+    <value>Select group image</value>
+  </data>
+  <data name="selectgroupnew" xml:space="preserve">
+    <value>Select Item</value>
+  </data>
+  <data name="selectgroupproduct" xml:space="preserve">
+    <value>Choose Group Product</value>
+  </data>
+  <data name="selectmoduletitle" xml:space="preserve">
+    <value>Content Management System</value>
+  </data>
+  <data name="selectnhomla" xml:space="preserve">
+    <value>Please select last child group product</value>
+  </data>
+  <data name="selectposition" xml:space="preserve">
+    <value>Select Position</value>
+  </data>
+  <data name="selectpoststatus" xml:space="preserve">
+    <value>---Select Status of Post---</value>
+  </data>
+  <data name="selling" xml:space="preserve">
+    <value>Selling</value>
+  </data>
+  <data name="send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="sendcoment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="sentby" xml:space="preserve">
+    <value>Sent by</value>
+  </data>
+  <data name="sentdate" xml:space="preserve">
+    <value>Sent Date</value>
+  </data>
+  <data name="serial" xml:space="preserve">
+    <value>Serial</value>
+  </data>
+  <data name="show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="showall" xml:space="preserve">
+    <value>Show All</value>
+    <comment>Nút hiển thị tất cả</comment>
+  </data>
+  <data name="showhomepage" xml:space="preserve">
+    <value>Show in homepage</value>
+  </data>
+  <data name="showhot" xml:space="preserve">
+    <value>Show Highlight</value>
+  </data>
+  <data name="showinfooter" xml:space="preserve">
+    <value>Show in footer</value>
+  </data>
+  <data name="showmenu" xml:space="preserve">
+    <value>Show in menu</value>
+  </data>
+  <data name="showprioritypost" xml:space="preserve">
+    <value>Show Priority Post</value>
+  </data>
+  <data name="sitemap" xml:space="preserve">
+    <value>Sitemap</value>
+  </data>
+  <data name="size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="startdate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="statistic" xml:space="preserve">
+    <value>Visitor Statistics</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="success" xml:space="preserve">
+    <value>Successfully!</value>
+  </data>
+  <data name="summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="supportonline" xml:space="preserve">
+    <value>Support Online</value>
+  </data>
+  <data name="systemmanagement" xml:space="preserve">
+    <value>System Management</value>
+  </data>
+  <data name="tengiamdoc" xml:space="preserve">
+    <value>Director name</value>
+  </data>
+  <data name="textdocuments" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="thankcomment" xml:space="preserve">
+    <value>Thank you for comment</value>
+  </data>
+  <data name="thongdiep" xml:space="preserve">
+    <value>MESSAGE FROM THE DIRECTOR</value>
+  </data>
+  <data name="thongkebaicanduyet" xml:space="preserve">
+    <value>Statistics Post Review</value>
+  </data>
+  <data name="thongkedangbai" xml:space="preserve">
+    <value>Statistics User Posts</value>
+  </data>
+  <data name="thongkexemnhieu" xml:space="preserve">
+    <value>Statistics Viewed Posts</value>
+  </data>
+  <data name="thongtinhiephoi" xml:space="preserve">
+    <value>Information Association</value>
+  </data>
+  <data name="tieudiem" xml:space="preserve">
+    <value>Hot</value>
+  </data>
+  <data name="tindocnhieu" xml:space="preserve">
+    <value>Most Viewed</value>
+  </data>
+  <data name="tinnoibat" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="totalaccess" xml:space="preserve">
+    <value>Total number Visitors</value>
+  </data>
+  <data name="tweetsdescription" xml:space="preserve">
+    <value>Twitter description</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="unread" xml:space="preserve">
+    <value>Unread</value>
+  </data>
+  <data name="update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="updateord" xml:space="preserve">
+    <value>Update Order</value>
+  </data>
+  <data name="updatesuccess" xml:space="preserve">
+    <value>Update Success!</value>
+  </data>
+  <data name="upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="user" xml:space="preserve">
+    <value>User List</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="videogroup" xml:space="preserve">
+    <value>Video Group</value>
+  </data>
+  <data name="videourl" xml:space="preserve">
+    <value>Video Url</value>
+  </data>
+  <data name="viewed" xml:space="preserve">
+    <value>Viewed</value>
+  </data>
+  <data name="waitreview" xml:space="preserve">
+    <value>Wait to Review</value>
+  </data>
+  <data name="warranty" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="weblink" xml:space="preserve">
+    <value>Web Links</value>
+  </data>
+  <data name="weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>
